@@ -1,0 +1,45 @@
+/*home.css*/
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*Full viewport height */
+    background-color: #f0f0f0; /* Light Background Color */
+}
+
+.profileCircle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, lightgray, darkgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePicture {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover; /* Keep the Aspect Ratio of you image */
+}
+
+.hiddenLinks {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.profileCircle {
+    opacity: 1; /* Show Linkjs on Hover */
+}
+
+.hiddenLinks a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+

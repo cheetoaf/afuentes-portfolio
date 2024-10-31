@@ -6,7 +6,7 @@ const home = () => {
     return (
         <div className='home'>
             {/*Circle container*/}
-            <div className='profile-circle'>
+            <div className='profileCircle'>
                 {/*Profile Image*/}
                 <img src='../images/adam.png' alt='Adam Fuentes' className='profilePicture'/>
 
