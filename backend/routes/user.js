@@ -34,7 +34,7 @@ router.post('/', async (req, res) => {
 //Get all users
 router.get('/', async (req, res) => {
     try {
-        const users = await User.find();
+        const users = await User.find().select('-password'); // Exclude password from the result
         res.json(users);
     } catch (err) {
         res.status(500).json(err);

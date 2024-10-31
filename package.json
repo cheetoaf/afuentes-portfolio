@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
     "express": "^4.21.1",
+    "jest-haste-map": "^29.7.0",
     "mongoose": "^8.7.2",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.47",
