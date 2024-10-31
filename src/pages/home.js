@@ -14,17 +14,13 @@ const home = () => {
                 <div className='hiddenLinks'>
                     <a href='./projects.js'>Projects</a>
                     <a href='./aboutMe.js'>About Me</a>
-                    <a href='./about.js'>Projects</a>
-
-
-
+                    <a href='./contact.js'>Contact Me!</a>
+                    <a href='./hiddenGame.js'>Wanna Play a Game?</a>
+            
                 </div>
-            </div>
-
-
-
-        
+            </div>      
         </div>
-    )
+    );
+};
 
-}
+export default home;
