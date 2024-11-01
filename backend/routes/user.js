@@ -1,8 +1,10 @@
 import express from 'express';
 import User from '../models/User.js'; 
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 const router = express.Router();
+const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret';
 
 // Create a new user
 router.post('/', async (req, res) => {
